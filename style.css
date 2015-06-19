@@ -1,0 +1,257 @@
+
+.Title{
+  
+   font-family: "jaf-bernino-sans","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 60px;
+  margin-left: -3px;
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+  margin-top: 40px;
+  padding-top: 0;
+  margin-bottom: 8px;
+  color: rgba(0,0,0,0.8);
+  text-align: center;
+  
+}
+
+.horizontal-section {
+      padding: 0 !important;
+    }
+    
+#HeaderImage{
+
+}
+
+.block{
+ 
+  position: relative;
+  padding: 25px 0 32px;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  line-height: 1.1;
+}
+
+footer.readNext{
+  display: block;
+  background-color: #fafafa;
+}
+
+#footerContainer{
+  margin-top: 41;
+  padding-bottom: 51px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  max-width: 900px;
+}
+
+p.block-abstract{
+cursor:pointer;
+
+}
+
+h3.block-title{
+    font-family: "jaf-bernino-sans","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  font-style: normal;
+cursor:pointer;
+}
+
+#menu{
+  background-color: #F2F2F2;
+  padding-left: 15px;
+  
+}
+
+paper-item.menu-item{
+  cursor:pointer;
+  font-family: "jaf-bernino-sans","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+  letter-spacing: -0.02em;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+paper-item.menu-item:hover { 
+    background-color: #fafafa;
+}
+
+
+paper-item.iron-selected {
+    background: #fafafa;
+  }
+
+
+#toggle{
+  position: absolute;
+  top:0;
+  background-color: rgba(0,0,0,0.15);
+}
+
+
+h3.footer-title {
+  text-transform: uppercase;
+  font-size: 12px;
+  color: rgba(0,0,0,0.8);
+  font-weight: 700;
+  letter-spacing: .1em;
+  border-bottom: solid 1px rgba(0,0,0,0.15);
+  padding-top: 50px;
+  padding-bottom: 15px;
+}
+  
+
+hr.section-divider{
+  display: block;
+  width: 100px;
+  margin: 51px auto 41px auto;
+  border: 0;
+  border-top: 1px solid rgba(0,0,0,0.15);
+}
+
+
+#logo{
+  margin-left: 16px;
+  margin-top: 24px;
+  margin-bottom: 16px;
+  background-color: none;
+}
+
+
+hr{
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+blockquote.Pullquote{
+  line-height: 1.4;
+  text-align: center;
+  font-size: 32px;
+  margin: 48px -160px;
+  border: none;
+  padding: 0;
+  font-family: "freight-text-pro",Georgia,Cambria,"Times New Roman",Times,serif;
+  letter-spacing: .01rem;
+  font-weight: 400;
+  font-style: italic;
+  transition: margin 100ms;
+}
+
+blockquote.Blockquote{
+  font-family: "freight-text-pro",Georgia,Cambria,"Times New Roman",Times,serif;
+  letter-spacing: .01rem;
+  font-weight: 400;
+  font-style: italic;
+  border-left: 3px solid rgba(0,0,0,0.8);
+  padding-left: 20px;
+  margin-left: -23px;
+  padding-bottom: 3px;
+  font-size: 22px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+h2.Subhead {
+  font-family: "jaf-bernino-sans","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 36px;
+  margin-left: -1.8px;
+  line-height: 1.2;
+  margin-top: 40px;
+  margin-bottom: 4px;
+  color: rgba(0,0,0,0.8);
+}
+
+#Image{
+  background-color: lightgray;
+  margin-top: 35px;
+}
+
+figcaption{
+  position: relative;
+  width: 100%;
+  text-align: center;
+  left: 0;
+  margin-top: 10px;
+  font-family: "freight-text-pro",Georgia,Cambria,"Times New Roman",Times,serif;
+  letter-spacing: .01rem;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 14px;
+  line-height: 1.4;
+  color: rgba(0,0,0,0.6);
+}
+
+
+
+
+.Abstract{
+  
+  font-style: italic;
+  text-align: center;
+
+}
+
+#container{
+  
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  max-width: 900px;
+  
+}
+
+.Body, .Abstract{
+  margin top:0px;
+  margin-bottom:30px;
+  font-size: 22px;
+  line-height: 1.5;
+  font-family: "freight-text-pro",Georgia,Cambria,"Times New Roman",Times,serif;
+  letter-spacing: .01rem;
+  font-weight: 400;
+  color: rgba(0,0,0,0.8);
+  
+}
+
+.Body{
+font-style: normal;
+}
+
+
+#main-content{
+  overflow : scroll;
+}
+
+/*google material style*/
+h1,h2{font-weight:400;line-height:48px}
+a,h4{line-height:24px}
+body,h1,h2,h3,h4{font-weight:400}
+body,h5,h6,p{font-size:13px;line-height:20px}
+a,body,paper-toolbar{color:#424242}
+body{font-family:Roboto,Noto,'Helvetica Neue',Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased;-webkit-tap-highlight-color:transparent}
+code,pre{font-family:Inconsolata,monospace}
+pre{overflow-x:auto}
+a,h1,h2,h3,h4,h5,h6{text-rendering:optimizeLegibility}
+a{text-decoration:none;font-size:14px;font-weight:500;letter-spacing:.018em}
+h1{font-size:45px;letter-spacing:-.018em}h2{font-size:18px;letter-spacing:0;margin:8px 0}
+h3{font-size:24px;letter-spacing:-.012em;line-height:32px}h4{font-size:16px}
+catalog-app{overflow:hidden}
+.menu-icon{display:block;width:24px;padding-top:3px;cursor:pointer;box-sizing:border-box;-webkit-user-select:none}
+.menu-bar{display:block;width:18px;height:2px;margin:0 auto 3px;background:#333;-webkit-transform-origin:center;transition:all 300ms cubic-bezier(.55,0,.1,1)}
+.menu-icon[active] .menu-bar{opacity:0}.menu-icon[active] .menu-bar:first-child{-webkit-transform:rotate(45deg)translate(2px,2px);margin-top:4px;opacity:1}
+.menu-icon[active] .menu-bar:last-child{-webkit-transform:rotate(-45deg)translate(5px,-5px);opacity:1}paper-toolbar{transition:height 450ms cubic-bezier(.55,0,.1,1)}
+paper-toolbar.medium-tall{height:107px}paper-toolbar nav{margin:12px 0 0}
+paper-toolbar nav a{display:inline-block;font-weight:500;line-height:50px;text-transform:none;color:#666;margin:0 12px;padding:0 4px}
+paper-toolbar nav a:hover{color:#536DFE}
+paper-toolbar nav a:first-child{margin-left:0}
+paper-toolbar nav .active{color:#000;border-bottom:2px solid #7986CB}
+
+p a{text-transform:none;color:#5572fa}
+li p{margin:0}aside{margin:40px;padding:20px 40px;background-color:#fafafa;border:1px solid #e5e5e5}
+

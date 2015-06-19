@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    
+    <script src="bower_components/webcomponentsjs/webcomponents.js"></script>
+    <script src="bower_components/web-animations-js/web-animations.min.js"></script>
+    
+    <link rel="import" href="bower_components/polymer/polymer.html">
+    <link rel="import" href="bower_components/paper-drawer-panel/paper-drawer-panel.html">
+    <link rel="import" href="bower_components/iron-behaviors/iron-button-state.html">
+    <link rel="import" href="bower_components/iron-menu-behavior/iron-menu-behavior.html">
+    <link rel="import" href="bower_components/iron-image/iron-image.html">
+    <link rel="import" href="bower_components/iron-meta/iron-meta.html">
+    <link rel="import" href="bower_components/iron-iconset/iron-iconset.html">
+    <link rel="import" href="bower_components/iron-pages/iron-pages.html">
+    <link rel="import" href="bower_components/iron-selector/iron-selector.html">
+    <link rel="import" href="bower_components/iron-behaviors/iron-control-state.html">
+    <link rel="import" href="bower_components/iron-fit-behavior/iron-fit-behavior.html">
+    <link rel="import" href="bower_components/paper-behaviors/paper-button-behavior.html">
+    <link rel="import" href="bower_components/paper-behaviors/paper-inky-focus-behavior.html">
+    <link rel="import" href="bower_components/paper-material/paper-material.html">
+    <link rel="import" href="bower_components/paper-toolbar/paper-toolbar.html">
+    <link rel="import" href="bower_components/paper-icon-button/paper-icon-button.html">
+    <link rel="import" href="bower_components/iron-icons/iron-icons.html">
+    <link rel="import" href="bower_components/paper-item/paper-item.html">
+    <link rel="import" href="bower_components/paper-menu/paper-menu.html">
+    <link rel="import" href="bower_components/paper-styles/paper-styles.html">
+
+    
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="import" href="custom-styles.html">
+    
+    <script src="postData.js"></script>
+    
+  </head>
+  
+  <body>
+    <paper-drawer-panel id="drawer">
+      <div drawer id="side-panel">
+        <iron-image id="logo" src="https://drive.google.com/uc?export=download&id=0Bxcy-GgchG0eNDdRdThJVWc3TlU"></iron-image>
+        <hr>
+        <div class="horizontal-section"></iron-selector></div>
+      </div>
+              
+      <div main id="main-content">
+        
+        <div id="page">
+          <div id="container"></div>
+        </div>
+        <paper-icon-button id="toggle" icon="menu" style="color: #FFFFFF;" paper-drawer-toggle></paper-icon-button>
+        <hr class="section-divider">
+        <footer class="readNext">
+          <div id="footerContainer">
+            <h3 class="footer-title" >Read More</h3>
+          </div>
+        </footer>
+        </div>
+    </paper-drawer-panel>
+    
+
+    <script src="//use.typekit.net/mpf6jzr.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
+
+    <script type="text/javascript" src="bower_components/tabletop/src/tabletop.js"></script>
+    
+    
+  </body>
+</html>
