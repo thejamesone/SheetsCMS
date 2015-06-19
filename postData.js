@@ -107,7 +107,6 @@
         var page = document.getElementById("page");
         var container = document.getElementById("container");
         //count all the rows in sheet
-        console.log(sheet);
         row_count = tabletop.sheets(sheet).column_names.length;
         
         for (i = 0; i < row_count; i++){
